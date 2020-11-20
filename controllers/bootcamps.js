@@ -21,7 +21,7 @@ exports.getBootcamps = asyncHandler(async (req, res, next) => {
   // Create querystring
   let queryStr = JSON.stringify(reqQuery);
 
-  // Permite la busqueda de mayor, menor igual que o in es necesario reemplazar el query original
+  // Permite la busqueda de mayor, menor, igual que o in es necesario reemplazar el query original
   queryStr = queryStr.replace(
     /\b(gt|gte|lt|lte|in)\b/g,
     (match) => `$${match}`
