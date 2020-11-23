@@ -1,4 +1,8 @@
-const advancedResults = (model, populate) => async (req, res, next) => {
+const advancedResults = (model, populate) => async (
+  req,
+  res,
+  next
+) => {
   // Copy req.query
   const reqQuery = { ...req.query };
 
