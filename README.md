@@ -38,7 +38,7 @@ node seeder -i
 
 The API is live at [https://devcamper-estebanpablo89.herokuapp.com/](https://devcamper-estebanpablo89.herokuapp.com/)
 
-Extensive documentation at localhost [here](https://documenter.getpostman.com/view/724536/TVmFif5m)
+Documentation at localhost [here](https://documenter.getpostman.com/view/724536/TVmFif5m)
 
 - Version: 1.0.0
 - License: MIT
