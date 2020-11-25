@@ -48,7 +48,7 @@ app.use(fileupload());
 app.use(mongoSanitize());
 
 // Set security headers
-app.use(helmet());
+//app.use(helmet()); //Comentado porque bloquea el script para correr animacion de index para desplegar menus
 
 // Prevent XSS attacks
 app.use(xss());
