@@ -2,6 +2,10 @@
 
 > Backend API for DevCamper application, which is a bootcamp directory website
 
+## Demo
+
+The API is live at [https://devcamper-estebanpablo89.herokuapp.com/](https://devcamper-estebanpablo89.herokuapp.com/)
+
 ## Usage
 
 Rename "config/config.env.env" to "config/config.env" and update the values/settings to your own
@@ -34,9 +38,6 @@ node seeder -d
 node seeder -i
 ```
 
-## Demo
-
-The API is live at [https://devcamper-estebanpablo89.herokuapp.com/](https://devcamper-estebanpablo89.herokuapp.com/)
 
 Documentation at localhost [here](https://documenter.getpostman.com/view/724536/TVmFif5m)
 
